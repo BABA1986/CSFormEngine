@@ -1,0 +1,2446 @@
+{
+    "FormTypes": [
+                  {
+                  "FormID": "UF001",
+                  "FormName": "Form Type 1",
+                  "FormDescription": "Form Type Description 1",
+                  "Stages": [
+                             {
+                             "Id": "1",
+                             "Fields": [
+                                        {
+                                        "Id": "Icon1",
+                                        "Type": "BUNDLE-ICON",
+                                        "Value": "RoleIcon",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "ObjectiveQuestion2",
+                                        "Type": "ObjectiveQuestionSingleSelect",
+                                        "Value": "Well here is a solution I use for calculating the height for iOS 6 and iOS 7, and I have passed few arguments to make it reusable. Not the answer you're looking for?",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        "indexType": "Alphabetic",
+                                        "indexShape": "Rounded"
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "Well here is a solution I use for calculating the height for iOS 6 and iOS 7, and I have passed few arguments to make it reusable.",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "Solution 2",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Solution 3",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "4",
+                                                  "itemTitle": "Solution 4",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "5",
+                                                  "itemTitle": "Solution 5",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "6",
+                                                  "itemTitle": "Solution 6",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "7",
+                                                  "itemTitle": "Solution 7",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "8",
+                                                  "itemTitle": "Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 6 Solution 7 Solution 8 Solution 9",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "Date-picker",
+                                        "Type": "DATE-M",
+                                        "Value": null,
+                                        "Label": "Birth Year",
+                                        "PlaceholderMsg": "Required",
+                                        "FormKey": "BirthYear",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "DATEFORMAT",
+                                                       "msg": null,
+                                                       "data": "days",
+                                                       "displayFormat": [
+                                                                         "Month",
+                                                                         "Year"
+                                                                         ]
+                                                       },
+                                                       {
+                                                       "type": "REQUIRED",
+                                                       "msg": "Age is a mandatory field.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MIN",
+                                                       "msg": "You must be 13 years old or above to sign up!",
+                                                       "data": "13",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": "Age limit for the Sign Up as Students is 13 Years. You can not Sign Up if Your age is less than 13 years. "
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "Email",
+                                        "Type": "EMAIL",
+                                        "Value": "",
+                                        "Label": "Email",
+                                        "PlaceholderMsg": "Enter your email",
+                                        "FormKey": "Email",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "REQUIRED",
+                                                       "msg": "Email is a mandatory field.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "REGEX",
+                                                       "msg": "Not a valid email address.",
+                                                       "data": "^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}$",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "SERVICE",
+                                                       "msg": "",
+                                                       "data": "http://cresceranceservices.com/api/ValidateUserEmail",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "Password",
+                                        "Type": "PASSWORD",
+                                        "Value": null,
+                                        "Label": "Password",
+                                        "PlaceholderMsg": "Enter your password",
+                                        "FormKey": "Password",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "REQUIRED",
+                                                       "msg": "Password cannot be blank.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MIN",
+                                                       "msg": "Password must be more than 3 characters.",
+                                                       "data": "3",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MAX",
+                                                       "msg": "Password must be less than 20 characters.",
+                                                       "data": "20",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace2",
+                                        "Type": "VSpace",
+                                        "Value": "5",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "Seperator1",
+                                        "Type": "SEPARATOR-WITH-LABEL-BELOW",
+                                        "Value": "Or",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "SocialControl",
+                                        "Type": "SOCIAL-LOGIN",
+                                        "Value": "LT02,LT03,LT04,LT05",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "facebook",
+                                                  "itemSrc": "facebook.png",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "twitter",
+                                                  "itemSrc": "twitter.png",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "linkedin",
+                                                  "itemSrc": "linkedin.png",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "4",
+                                                  "itemTitle": "google",
+                                                  "itemSrc": "google.png",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        }
+                                        ],
+                             "Action": "Next",
+                             "Button": "Next"
+                             },
+                             {
+                             "Id": "2",
+                             "Fields": [
+                                        {
+                                        "Id": "ProfilePic",
+                                        "Type": "IMAGE-BLOB",
+                                        "Value": null,
+                                        "Label": "Profile Photo",
+                                        "PlaceholderMsg": "Add a picture to your profile!",
+                                        "FormKey": "ImageURL",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Editability",
+                                                       "msg": "",
+                                                       "data": "true",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "FName",
+                                        "Type": "STRING",
+                                        "Value": null,
+                                        "Label": "First Name",
+                                        "PlaceholderMsg": "Required",
+                                        "FormKey": "FName",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "REQUIRED",
+                                                       "msg": "First name is a mandatory field.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MAX",
+                                                       "msg": "First name must be less than 50 character.",
+                                                       "data": "50",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MIN",
+                                                       "msg": "First name must be more than 1 character.",
+                                                       "data": "1",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Editability",
+                                                       "msg": "",
+                                                       "data": "true",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "LName",
+                                        "Type": "STRING",
+                                        "Value": null,
+                                        "Label": "Last Name",
+                                        "PlaceholderMsg": "Required",
+                                        "FormKey": "LName",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "REQUIRED",
+                                                       "msg": "Last name is a mandatory field.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MAX",
+                                                       "msg": "Last name must be less than 50 character.",
+                                                       "data": "50",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MIN",
+                                                       "msg": "Last name must be more than 1 character.",
+                                                       "data": "1",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Editability",
+                                                       "msg": "",
+                                                       "data": "true",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "ObjectiveQuestion1",
+                                        "Type": "ObjectiveQuestionMultiSelect",
+                                        "Value": "Well here is a solution I use for calculating the height for iOS 6 and iOS 7, and I have passed few arguments to make it reusable. Not the answer you're looking for?",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        "indexType": "default"
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "Well here is a solution I use for calculating the height for iOS 6 and iOS 7, and I have passed few arguments to make it reusable.",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "Solution 2",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Solution 3",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "4",
+                                                  "itemTitle": "Solution 4",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "5",
+                                                  "itemTitle": "Solution 5",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "6",
+                                                  "itemTitle": "Solution 6",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "7",
+                                                  "itemTitle": "Solution 7",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "8",
+                                                  "itemTitle": "Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace2",
+                                        "Type": "VSpace",
+                                        "Value": "5",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "DropDownSingleSelect2",
+                                        "Type": "DropDownSingleSelect",
+                                        "Value": "Select your school",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "School Name 1",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "School Name 2",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "School Name 3",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "4",
+                                                  "itemTitle": "School Name 4",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "5",
+                                                  "itemTitle": "School Name 5",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "6",
+                                                  "itemTitle": "School Name 6",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "7",
+                                                  "itemTitle": "School Name 7",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "8",
+                                                  "itemTitle": "School Name 8",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace2",
+                                        "Type": "VSpace",
+                                        "Value": "5",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "PhoneNumber",
+                                        "Type": "NUMERIC",
+                                        "Value": null,
+                                        "Label": "Phone",
+                                        "PlaceholderMsg": "Optional",
+                                        "FormKey": "MobileNo",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "MIN",
+                                                       "msg": "Invalid phone number.There should be 8 to 20 digits.",
+                                                       "data": "8",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MAX",
+                                                       "msg": "Invalid phone number.There should be 8 to 20 digits.",
+                                                       "data": "20",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "EditModeOnly",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Editability",
+                                                       "msg": "",
+                                                       "data": "true",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "StudentID",
+                                        "Type": "STRING",
+                                        "Value": null,
+                                        "Label": "Student ID",
+                                        "PlaceholderMsg": "Required",
+                                        "FormKey": "StudentID",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "REQUIRED",
+                                                       "msg": "Student ID is a mandatory field.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MIN",
+                                                       "msg": "Student ID must be more than 1 character.",
+                                                       "data": "1",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MAX",
+                                                       "msg": "Student ID must be less than 50 characters.",
+                                                       "data": "50",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both"
+                                                       },
+                                                       {
+                                                       "type": "REGEX",
+                                                       "msg": "Commas (,) are not allowed in Student ID.",
+                                                       "data": "[^,]+",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "AddTeacherBtn",
+                                        "Type": "BUTTON",
+                                        "Value": "Add Teachers",
+                                        "Label": "Type your teacher name who will approve the sign up request",
+                                        "PlaceholderMsg": "Teacher Name",
+                                        "FormKey": "AddTeacherBtn",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "SERVICE-OPENPICKER",
+                                                       "msg": "",
+                                                       "data": "http://cresceranceservices.com/api/GetTeacherList",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Required",
+                                                       "msg": "You need to select at least one teacher.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": "TeachersListing",
+                                        "Action": "OpenControl",
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "Add Student",
+                                        "Type": "BUTTON",
+                                        "Value": "+ Additional Student",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": "AddStudent",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "UNIQUE",
+                                                       "msg": "Student Id can not be duplicate.",
+                                                       "data": "",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": "StudentID",
+                                        "Action": "Replicate",
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace2",
+                                        "Type": "VSpace",
+                                        "Value": "5",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "termsOfServicesLink",
+                                        "Type": "HTML-LABEL",
+                                        "Value": "<div align='center' style='font - size: 12 px;background - color: #fcfcfc;display: block;padding: 10 px;'><font face='AGLettericaCondensed'>By clicking next, I agree to the <a href='http://crescerance.com/termsofuse.html'>Terms of Service</a> and <a href='http://crescerance.com/privacypolicy.html'>Privacy Policy</a>.</font><div>",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        }
+                                        ]
+                             }
+                             ]
+                  },
+                  {
+                  "FormID": "UF002",
+                  "FormName": "Form Type 2",
+                  "FormDescription": "Form Type Description 2",
+                  "Stages": [
+                             {
+                             "Id": "1",
+                             "Fields": [
+                                        {
+                                        "Id": "Icon1",
+                                        "Type": "BUNDLE-ICON",
+                                        "Value": "RoleIcon",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "Date-picker",
+                                        "Type": "DATE-M",
+                                        "Value": null,
+                                        "Label": "Birth Year",
+                                        "PlaceholderMsg": "Required",
+                                        "FormKey": "BirthYear",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "DATEFORMAT",
+                                                       "msg": null,
+                                                       "data": "days",
+                                                       "displayFormat": [
+                                                                         "Month",
+                                                                         "Year"
+                                                                         ]
+                                                       },
+                                                       {
+                                                       "type": "REQUIRED",
+                                                       "msg": "Age is a mandatory field.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MIN",
+                                                       "msg": "You must be 13 years old or above to sign up!",
+                                                       "data": "13",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": "Age limit for the Sign Up as Students is 13 Years. You can not Sign Up if Your age is less than 13 years. "
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "ObjectiveQuestion2",
+                                        "Type": "ObjectiveQuestionSingleSelect",
+                                        "Value": "Well here is a solution I use for calculating the height for iOS 6 and iOS 7, and I have passed few arguments to make it reusable. Not the answer you're looking for?",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        "indexType": "Numeric",
+                                        "indexShape": "Rectangle"
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "Well here is a solution I use for calculating the height for iOS 6 and iOS 7, and I have passed few arguments to make it reusable.",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "Solution 2",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Solution 3",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "4",
+                                                  "itemTitle": "Solution 4",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "5",
+                                                  "itemTitle": "Solution 5",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "6",
+                                                  "itemTitle": "Solution 6",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "7",
+                                                  "itemTitle": "Solution 7",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "8",
+                                                  "itemTitle": "Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 8 Solution 6 Solution 7 Solution 8 Solution 9",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "DropDownMultiSelect",
+                                        "Type": "DropDownMultiSelect",
+                                        "Value": "Select your school",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "School Name 1",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "School Name 2",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "School Name 3",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "4",
+                                                  "itemTitle": "School Name 4",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "5",
+                                                  "itemTitle": "School Name 5",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "Email",
+                                        "Type": "EMAIL",
+                                        "Value": "",
+                                        "Label": "Email",
+                                        "PlaceholderMsg": "Enter your email",
+                                        "FormKey": "Email",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "REQUIRED",
+                                                       "msg": "Email is a mandatory field.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "REGEX",
+                                                       "msg": "Not a valid email address.",
+                                                       "data": "^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}$",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "SERVICE",
+                                                       "msg": "",
+                                                       "data": "http://cresceranceservices.com/api/ValidateUserEmail",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "Password",
+                                        "Type": "PASSWORD",
+                                        "Value": null,
+                                        "Label": "Password",
+                                        "PlaceholderMsg": "Enter your password",
+                                        "FormKey": "Password",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "REQUIRED",
+                                                       "msg": "Password cannot be blank.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MIN",
+                                                       "msg": "Password must be more than 3 characters.",
+                                                       "data": "3",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MAX",
+                                                       "msg": "Password must be less than 20 characters.",
+                                                       "data": "20",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace2",
+                                        "Type": "VSpace",
+                                        "Value": "5",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "Seperator1",
+                                        "Type": "SEPARATOR-WITH-LABEL-BELOW",
+                                        "Value": "Or",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "SocialControl",
+                                        "Type": "SOCIAL-LOGIN",
+                                        "Value": "LT02,LT03,LT04,LT05",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "facebook",
+                                                  "itemSrc": "facebook.png",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "twitter",
+                                                  "itemSrc": "twitter.png",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "linkedin",
+                                                  "itemSrc": "linkedin.png",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "4",
+                                                  "itemTitle": "google",
+                                                  "itemSrc": "google.png",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Conditions": [
+                                                       {
+                                                       "type": "SERVICE-TOKENVALIDATION",
+                                                       "msg": "",
+                                                       "data": "http://cresceranceservices.com/api/ValidateSocialID",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        }
+                                        ]
+                             },
+                             {
+                             "Id": "2",
+                             "Fields": [
+                                        {
+                                        "Id": "ProfilePic",
+                                        "Type": "IMAGE-BLOB",
+                                        "Value": null,
+                                        "Label": "Profile Photo",
+                                        "PlaceholderMsg": "Add a picture to your profile!",
+                                        "FormKey": "ImageURL",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Editability",
+                                                       "msg": "",
+                                                       "data": "true",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "FName",
+                                        "Type": "STRING",
+                                        "Value": null,
+                                        "Label": "First Name",
+                                        "PlaceholderMsg": "Required",
+                                        "FormKey": "FName",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "REQUIRED",
+                                                       "msg": "First name is a mandatory field.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MAX",
+                                                       "msg": "First name must be less than 50 character.",
+                                                       "data": "50",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MIN",
+                                                       "msg": "First name must be more than 1 character.",
+                                                       "data": "1",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Editability",
+                                                       "msg": "",
+                                                       "data": "true",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "LName",
+                                        "Type": "STRING",
+                                        "Value": null,
+                                        "Label": "Last Name",
+                                        "PlaceholderMsg": "Required",
+                                        "FormKey": "LName",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "REQUIRED",
+                                                       "msg": "Last name is a mandatory field.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MAX",
+                                                       "msg": "Last name must be less than 50 character.",
+                                                       "data": "50",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MIN",
+                                                       "msg": "Last name must be more than 1 character.",
+                                                       "data": "1",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Editability",
+                                                       "msg": "",
+                                                       "data": "true",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "PhoneNumber",
+                                        "Type": "NUMERIC",
+                                        "Value": null,
+                                        "Label": "Phone",
+                                        "PlaceholderMsg": "Optional",
+                                        "FormKey": "MobileNo",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "MIN",
+                                                       "msg": "Invalid phone number.There should be 8 to 20 digits.",
+                                                       "data": "8",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MAX",
+                                                       "msg": "Invalid phone number.There should be 8 to 20 digits.",
+                                                       "data": "20",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "EditModeOnly",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Editability",
+                                                       "msg": "",
+                                                       "data": "true",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "StudentID",
+                                        "Type": "STRING",
+                                        "Value": null,
+                                        "Label": "Student ID",
+                                        "PlaceholderMsg": "Required",
+                                        "FormKey": "StudentID",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "REQUIRED",
+                                                       "msg": "Student ID is a mandatory field.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MIN",
+                                                       "msg": "Student ID must be more than 1 character.",
+                                                       "data": "1",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "MAX",
+                                                       "msg": "Student ID must be less than 50 characters.",
+                                                       "data": "50",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both"
+                                                       },
+                                                       {
+                                                       "type": "REGEX",
+                                                       "msg": "Commas (,) are not allowed in Student ID.",
+                                                       "data": "[^,]+",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "AddTeacherBtn",
+                                        "Type": "BUTTON",
+                                        "Value": "Add Teachers",
+                                        "Label": "Type your teacher name who will approve the sign up request",
+                                        "PlaceholderMsg": "Teacher Name",
+                                        "FormKey": "AddTeacherBtn",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "SERVICE-OPENPICKER",
+                                                       "msg": "",
+                                                       "data": "http://cresceranceservices.com/api/GetTeacherList",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Required",
+                                                       "msg": "You need to select at least one teacher.",
+                                                       "data": null,
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": "TeachersListing",
+                                        "Action": "OpenControl",
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "Add Student",
+                                        "Type": "BUTTON",
+                                        "Value": "+ Additional Student",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": "AddStudent",
+                                        "Conditions": [
+                                                       {
+                                                       "type": "Visibility",
+                                                       "msg": "",
+                                                       "data": "Both",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       },
+                                                       {
+                                                       "type": "UNIQUE",
+                                                       "msg": "Student Id can not be duplicate.",
+                                                       "data": "",
+                                                       "displayFormat": [
+                                                       
+                                                       ]
+                                                       }
+                                                       ],
+                                        "Target": "StudentID",
+                                        "Action": "Replicate",
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace2",
+                                        "Type": "VSpace",
+                                        "Value": "5",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "DropDownMultiSelect2",
+                                        "Type": "DropDownMultiSelect",
+                                        "Value": "Select your school",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "School Name 1",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "School Name 2",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "School Name 3",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "4",
+                                                  "itemTitle": "School Name 4",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "5",
+                                                  "itemTitle": "School Name 5",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "6",
+                                                  "itemTitle": "School Name 6",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "7",
+                                                  "itemTitle": "School Name 7",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "8",
+                                                  "itemTitle": "School Name 8",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "termsOfServicesLink",
+                                        "Type": "HTML-LABEL",
+                                        "Value": "<div align='center' style='font - size: 12 px;background - color: #fcfcfc;display: block;padding: 10 px;'><font face='AGLettericaCondensed'>By clicking next Test test, I agree to the <a href='http://crescerance.com/termsofuse.html'>Terms of Service</a> and <a href='http://crescerance.com/privacypolicy.html'>Privacy Policy</a>.</font><div>",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        }
+                                        ]
+                             }
+                             ]
+                  },
+                  {
+                  "FormID": "UF003",
+                  "FormName": "Form Type 3",
+                  "FormDescription": "Form Type Description 3",
+                  "PageNavigation":
+                  {
+                    "navigationType": "PaginationNextPrevious",
+                    "nextImage": "",
+                    "previousImage": "",
+                  },
+                  "Stages": [
+                             {
+                             "Id": "1",
+                             "Fields": [
+                                        {
+                                        "Id": "ObjectiveQuestion4",
+                                        "Type": "ObjectiveQuestionMultiSelect",
+                                        "Value": "You indicated that you eat at Joe’s fast food once every 3 months. Why don’t you eat at Joe’s more often?",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        "indexType": "Custom",
+                                        "indexImageSelected": "selected.png",
+                                        "indexImageSelected": "unselected.png"
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "There isn’t a location near my house",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "I don’t like the taste of the food",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Never heard of it",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        }
+                                        ]
+                             },
+                             {
+                             "Id": "2",
+                             "Fields": [
+                                        {
+                                        "Id": "ObjectiveQuestion5",
+                                        "Type": "ObjectiveQuestionSingleSelect",
+                                        "Value": "What is your opinion of Crazy Justin’s auto-repair?",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        "indexType": "Alphabetic",
+                                        "indexShape": "Rounded",
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": " Pretty good",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "Great",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Fantastic",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Incredible",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "The Best Ever",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": "Select any of the below option. Correct answer may credited 100 point in to your account."
+                                        }
+                                        ]
+                             },
+                             {
+                             "Id": "3",
+                             "Fields": [
+                                        {
+                                        "Id": "ObjectiveQuestion6",
+                                        "Type": "ObjectiveQuestionSingleSelect",
+                                        "Value": "How likely are you to go out for dinner and a movie this weekend?",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        "indexType": "Numeric",
+                                        "indexShape": "Rectangle",
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "Dinner and Movie",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "Dinner Only",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Movie Only",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Neither",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        }
+                                        ]
+                             },
+                             {
+                             "Id": "4",
+                             "Fields": [
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "PlainText1",
+                                        "Type": "PlainText",
+                                        "Value": "Select your school so that we can validate your membership in my program.",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "DropDownSingleSelect2",
+                                        "Type": "DropDownSingleSelect",
+                                        "Value": "Select your school",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "School Name 1",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "School Name 2",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "School Name 3",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "4",
+                                                  "itemTitle": "School Name 4",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "5",
+                                                  "itemTitle": "School Name 5",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "6",
+                                                  "itemTitle": "School Name 6",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "7",
+                                                  "itemTitle": "School Name 7",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "8",
+                                                  "itemTitle": "School Name 8",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "PlainText2",
+                                        "Type": "PlainText",
+                                        "Value": "Select your teacher so that we can validate your membership in my program.",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "DropDownSingleSelect2",
+                                        "Type": "DropDownMultiSelect",
+                                        "Value": "Select your Teachers",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "Teacher 1",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "Teacher 2",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Teacher 3",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "4",
+                                                  "itemTitle": "Teacher 4",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "5",
+                                                  "itemTitle": "Teacher 5",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "6",
+                                                  "itemTitle": "Teacher 6",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "7",
+                                                  "itemTitle": "Teacher 7",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "8",
+                                                  "itemTitle": "Teacher 8",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        }
+                                        ]
+                             }
+                             ]
+                  },
+                  {
+                  "FormID": "UF004",
+                  "FormName": "Form Type 4",
+                  "FormDescription": "Form Type Description 4",
+                  "PageNavigation":
+                  {
+                  "navigationType": "PaginationDotNumber",
+                  "nextImage": "",
+                  "previousImage": "",
+                  },
+                  "Stages": [
+                             {
+                             "Id": "1",
+                             "Fields": [
+                                        {
+                                        "Id": "ObjectiveQuestion4",
+                                        "Type": "ObjectiveQuestionMultiSelect",
+                                        "Value": "You indicated that you eat at Joe’s fast food once every 3 months. Why don’t you eat at Joe’s more often?",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        "indexType": "Custom",
+                                        "indexImageSelected": "selected.png",
+                                        "indexImageSelected": "unselected.png"
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "There isn’t a location near my house",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "I don’t like the taste of the food",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Never heard of it",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        }
+                                        ]
+                             },
+                             {
+                             "Id": "2",
+                             "Fields": [
+                                        {
+                                        "Id": "ObjectiveQuestion5",
+                                        "Type": "ObjectiveQuestionSingleSelect",
+                                        "Value": "What is your opinion of Crazy Justin’s auto-repair?",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        "indexType": "Alphabetic",
+                                        "indexShape": "Rounded",
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": " Pretty good",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "Great",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Fantastic",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Incredible",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "The Best Ever",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": "Select any of the below option. Correct answer may credited 100 point in to your account."
+                                        }
+                                        ]
+                             },
+                             {
+                             "Id": "3",
+                             "Fields": [
+                                        {
+                                        "Id": "ObjectiveQuestion6",
+                                        "Type": "ObjectiveQuestionSingleSelect",
+                                        "Value": "How likely are you to go out for dinner and a movie this weekend?",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        "indexType": "Numeric",
+                                        "indexShape": "Rectangle",
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "Dinner and Movie",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "Dinner Only",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Movie Only",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Neither",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        }
+                                        ]
+                             },
+                             {
+                             "Id": "4",
+                             "Fields": [
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "PlainText1",
+                                        "Type": "PlainText",
+                                        "Value": "Select your school so that we can validate your membership in my program.",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "DropDownSingleSelect2",
+                                        "Type": "DropDownSingleSelect",
+                                        "Value": "Select your school",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "School Name 1",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "School Name 2",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "School Name 3",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "4",
+                                                  "itemTitle": "School Name 4",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "5",
+                                                  "itemTitle": "School Name 5",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "6",
+                                                  "itemTitle": "School Name 6",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "7",
+                                                  "itemTitle": "School Name 7",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "8",
+                                                  "itemTitle": "School Name 8",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "VSpace1",
+                                        "Type": "VSPACE",
+                                        "Value": "2",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "PlainText2",
+                                        "Type": "PlainText",
+                                        "Value": "Select your teacher so that we can validate your membership in my program.",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        },
+                                        {
+                                        "Id": "DropDownSingleSelect2",
+                                        "Type": "DropDownMultiSelect",
+                                        "Value": "Select your Teachers",
+                                        "Label": null,
+                                        "PlaceholderMsg": null,
+                                        "FormKey": null,
+                                        "Conditions": [
+                                        
+                                        ],
+                                        "SubItemsInfo": {
+                                        "ItemLayoutParams": {
+                                        
+                                        },
+                                        "Items": [
+                                                  {
+                                                  "itemId": "1",
+                                                  "itemTitle": "Teacher 1",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "2",
+                                                  "itemTitle": "Teacher 2",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "3",
+                                                  "itemTitle": "Teacher 3",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "4",
+                                                  "itemTitle": "Teacher 4",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "5",
+                                                  "itemTitle": "Teacher 5",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "6",
+                                                  "itemTitle": "Teacher 6",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "7",
+                                                  "itemTitle": "Teacher 7",
+                                                  "isSelected": false
+                                                  },
+                                                  {
+                                                  "itemId": "8",
+                                                  "itemTitle": "Teacher 8",
+                                                  "isSelected": false
+                                                  }
+                                                  ]
+                                        },
+                                        "Target": null,
+                                        "Action": null,
+                                        "Hint": null
+                                        }
+                                        ]
+                             }
+                             ]
+                  }
+                  ]
+}

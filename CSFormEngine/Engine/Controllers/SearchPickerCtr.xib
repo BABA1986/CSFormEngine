@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="AGLettericaCondensed Roman.Ttf">
+            <string>AGLettericaCondensed-Roman</string>
+            <string>AGLettericaCondensed-Roman</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchPickerCtr">
+            <connections>
+                <outlet property="nextBtn" destination="e3Y-zx-paK" id="E9E-rS-ypx"/>
+                <outlet property="profileSearch" destination="tFS-kA-qBa" id="cjl-lv-RTP"/>
+                <outlet property="tableview" destination="f3H-ai-oLt" id="fO0-7G-8Kg"/>
+                <outlet property="txtView" destination="UHy-la-n4c" id="Gli-pj-PYk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3Y-zx-paK">
+                    <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.1853640369" blue="0.16187109899999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="00Q-sd-bYh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AGLettericaCondensed-Roman" family="AGLettericaCondensed" pointSize="15"/>
+                    <state key="normal" title="Done"/>
+                    <connections>
+                        <action selector="nextBtnPressed:" destination="-1" eventType="touchUpInside" id="A2v-mM-b05"/>
+                    </connections>
+                </button>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="tFS-kA-qBa">
+                    <rect key="frame" x="0.0" y="114" width="600" height="44"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="hLT-7s-OYe"/>
+                    </constraints>
+                    <textInputTraits key="textInputTraits"/>
+                    <scopeButtonTitles>
+                        <string>Title</string>
+                        <string>Title</string>
+                    </scopeButtonTitles>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="fjp-MP-MBp"/>
+                    </connections>
+                </searchBar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="f3H-ai-oLt">
+                    <rect key="frame" x="0.0" y="158" width="600" height="398"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" red="0.81507337093353271" green="0.8150489330291748" blue="0.8150627613067627" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Pnr-6f-k3W"/>
+                        <outlet property="delegate" destination="-1" id="RrH-ga-fYH"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type Your Teacher Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHy-la-n4c">
+                    <rect key="frame" x="10" y="64" width="580" height="50"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="ExE-9n-FHt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AGLettericaCondensed-Roman" family="AGLettericaCondensed" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="e3Y-zx-paK" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="0UO-Gp-8bB"/>
+                <constraint firstItem="tFS-kA-qBa" firstAttribute="top" secondItem="UHy-la-n4c" secondAttribute="bottom" id="377-GQ-g8E"/>
+                <constraint firstItem="tFS-kA-qBa" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="B1r-Nx-v54"/>
+                <constraint firstItem="UHy-la-n4c" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" constant="-10" id="Fpl-iG-lcp"/>
+                <constraint firstItem="UHy-la-n4c" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="K74-As-M50"/>
+                <constraint firstItem="e3Y-zx-paK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="bottom" constant="-44" id="OMa-72-Cku"/>
+                <constraint firstItem="f3H-ai-oLt" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" constant="-44" id="UAb-cN-TzP"/>
+                <constraint firstItem="f3H-ai-oLt" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="UbO-4o-OmH"/>
+                <constraint firstItem="tFS-kA-qBa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Xjm-mJ-n7f"/>
+                <constraint firstItem="UHy-la-n4c" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="lXb-5n-QBY"/>
+                <constraint firstItem="f3H-ai-oLt" firstAttribute="top" secondItem="tFS-kA-qBa" secondAttribute="bottom" id="qlE-7b-IME"/>
+                <constraint firstItem="e3Y-zx-paK" firstAttribute="leading" secondItem="f3H-ai-oLt" secondAttribute="leading" id="rRV-rC-V5y"/>
+                <constraint firstItem="UHy-la-n4c" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" constant="-20" id="t2P-PQ-gJv"/>
+                <constraint firstItem="f3H-ai-oLt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tf1-AH-51O"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

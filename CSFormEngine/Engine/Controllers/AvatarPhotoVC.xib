@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="AGLettericaCondensed Roman.Ttf">
+            <string>AGLettericaCondensed-Roman</string>
+            <string>AGLettericaCondensed-Roman</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AvatarPhotoVC">
+            <connections>
+                <outlet property="collectionView" destination="gxz-UP-tVN" id="kV3-hQ-ZjP"/>
+                <outlet property="confirmButton" destination="0ja-Gu-aP6" id="WNa-B0-tcF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Your Avatar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHk-CE-rpB">
+                    <rect key="frame" x="0.0" y="74" width="600" height="20"/>
+                    <fontDescription key="fontDescription" name="AGLettericaCondensed-Roman" family="AGLettericaCondensed" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="gxz-UP-tVN">
+                    <rect key="frame" x="0.0" y="104" width="600" height="452"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <inset key="scrollIndicatorInsets" minX="10" minY="10" maxX="10" maxY="10"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pTP-Cs-GMa">
+                        <size key="itemSize" width="80" height="80"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ja-Gu-aP6">
+                    <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="23B-gY-Zk7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AGLettericaCondensed-Roman" family="AGLettericaCondensed" pointSize="17"/>
+                    <state key="normal" title="Confirm">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="ConfirmAvatar:" destination="-1" eventType="touchUpInside" id="z0Y-Yx-5E1"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gxz-UP-tVN" firstAttribute="top" secondItem="PHk-CE-rpB" secondAttribute="bottom" constant="10" id="505-AL-Iu8"/>
+                <constraint firstItem="0ja-Gu-aP6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="I13-Gr-kaS"/>
+                <constraint firstAttribute="trailing" secondItem="0ja-Gu-aP6" secondAttribute="trailing" id="M1G-qC-Rbm"/>
+                <constraint firstItem="PHk-CE-rpB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="74" id="QI8-j1-Grb"/>
+                <constraint firstItem="gxz-UP-tVN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Raw-Pw-0wv"/>
+                <constraint firstItem="PHk-CE-rpB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Yyc-tS-g7F"/>
+                <constraint firstAttribute="bottom" secondItem="0ja-Gu-aP6" secondAttribute="bottom" id="dBn-c9-E8K"/>
+                <constraint firstAttribute="trailing" secondItem="PHk-CE-rpB" secondAttribute="trailing" id="imU-ng-ED2"/>
+                <constraint firstAttribute="bottom" secondItem="gxz-UP-tVN" secondAttribute="bottom" constant="44" id="pD3-SK-QGc"/>
+                <constraint firstAttribute="trailing" secondItem="gxz-UP-tVN" secondAttribute="trailing" id="vWp-ce-RTB"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
